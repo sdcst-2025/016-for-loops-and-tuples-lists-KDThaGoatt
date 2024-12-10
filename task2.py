@@ -22,4 +22,13 @@ Enter a name: Lebron
 That name is on the list
 """
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+nameList = ("Lebron","Kobe","Michael","Shaq","Dennis")
+
+nameInput = (input("Enter a name: "))
+
+for name in nameList:
+    if nameInput == name:
+        print("That name is on the list")
+        exit()
+else:
+    print("That name is not on the list")
